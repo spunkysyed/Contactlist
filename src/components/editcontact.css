@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Rimouski;
+    src: url(../fonts/rimouski\ sb.otf);
+}
+
+
+.edit-container{
+    width: 30vw!important;
+    height: 60vh;
+    font-family: Rimouski;
+    padding: 1px 0 0 0;
+}
+.edit-form-container{
+    width: 100%;
+}

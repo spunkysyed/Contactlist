@@ -1,0 +1,25 @@
+    @font-face {
+      font-family: Rimouski;
+      src: url(../fonts/rimouski\ sb.otf);
+   }
+   nav{
+      font-family: Rimouski;
+   }
+
+   .navbar-brand {
+   font-weight: bolder;
+   font-size: 2.4rem !important;
+   letter-spacing: 2px;
+   }
+   
+   i{
+      transition: all 0.3s ease-in-out;
+   }
+   i:hover{
+      color: gray;
+   }
+
+   hr{
+      width: 60%;
+      margin-left: 300px !important;
+   }

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Rimouski;
+    src: url(../fonts/rimouski\ sb.otf);
+}
+
+.add-container{
+    font-family: Rimouski;
+    width: 30vw !important;
+    height: 60vh;
+    padding: 0!important;
+}
+
+h1{
+    color: white;
+    font-size: 40px!important;
+}

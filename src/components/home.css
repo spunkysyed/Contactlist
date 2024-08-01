@@ -1,0 +1,73 @@
+   @font-face {
+      font-family: Rimouski;
+      src: url(../fonts/rimouski\ sb.otf);
+   }
+
+   body {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   }
+   
+   ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 20px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: orange;
+      border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: gray;
+    }
+    
+   .home-container{
+      position: relative;
+      left: 2%;
+   }
+
+   .home-container img{
+      width: 120vw;
+      height: 96.2vh;
+      position: absolute;
+      left: -27.8%;
+      top: -12%;
+      z-index: -1;
+      filter: grayscale();
+   }
+
+   .table-container{
+      height: 75vh;
+   }
+
+   .overflow{
+      overflow-y: auto;
+   }
+
+   
+   tr{
+      cursor: pointer;
+      font-family: Rimouski;
+   }
+
+   tr > td {
+   font-weight: 500;
+
+   }
+   .row {
+   padding-left: 15px;
+   }
+
+   .fa-edit{
+      font-size: 30px;
+      color: blue;
+   }
+   .fa-trash-o{
+      color: red;
+      font-size:30px;
+   }
