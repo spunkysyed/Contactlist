@@ -39,7 +39,7 @@
  
    return (
      <div className="App">
-       <HashRouter basename="Contactlist">
+       <HashRouter>
          {/* Container for displaying toast notifications */}
          <ToastContainer />
          {/* Navigation bar */}
