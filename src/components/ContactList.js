@@ -1,5 +1,5 @@
    import React, { useEffect } from "react";
-   import { BrowserRouter, Route, Routes } from "react-router-dom";
+   import { HashRouter, Route, Routes } from "react-router-dom";
    import { useDispatch } from "react-redux";
    import { ToastContainer } from "react-toastify";
 
@@ -39,7 +39,7 @@
  
    return (
      <div className="App">
-       <BrowserRouter basename="Contact_List">
+       <HashRouter basename="Contact_List">
          {/* Container for displaying toast notifications */}
          <ToastContainer />
          {/* Navigation bar */}
@@ -50,7 +50,7 @@
            <Route path="/add" element={<AddContact />} />
            <Route path="/edit/:id" element={<EditContact />} />
          </Routes>
-       </BrowserRouter>
+       </HashRouter>
      </div>
    );
  };
