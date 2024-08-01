@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Contactlist/static/css/main.9b79c26e.css",
-    "main.js": "/Contactlist/static/js/main.93b42306.js",
+    "main.js": "/Contactlist/static/js/main.8d866dd6.js",
     "static/media/—Pngtree—light green spiral notebook png_14548230.png": "/Contactlist/static/media/—Pngtree—light green spiral notebook png_14548230.4470a94325de83e8ab15.png",
     "static/media/rimouski sb.otf": "/Contactlist/static/media/rimouski sb.342cc474b57a5fe6fc2e.otf",
     "index.html": "/Contactlist/index.html",
     "main.9b79c26e.css.map": "/Contactlist/static/css/main.9b79c26e.css.map",
-    "main.93b42306.js.map": "/Contactlist/static/js/main.93b42306.js.map"
+    "main.8d866dd6.js.map": "/Contactlist/static/js/main.8d866dd6.js.map"
   },
   "entrypoints": [
     "static/css/main.9b79c26e.css",
-    "static/js/main.93b42306.js"
+    "static/js/main.8d866dd6.js"
   ]
 }
